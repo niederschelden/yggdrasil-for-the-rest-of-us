@@ -112,7 +112,6 @@ lynx http://[Another_Yggdrasil_Node_IP]/
 
 ## Troubleshooting
 
-- Make sure `/dev/net/tun` exists on your host (required for TUN support).
 - Ensure `docker-compose` and Docker are installed and functional.
 - Firewall issues? Try running with elevated privileges or check that UDP and TCP traffic can reach your peers.
 
