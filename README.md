@@ -47,7 +47,7 @@ EOF
 ### 3. Build and start the container
 
 ```bash
-docker-compose up --build -d
+docker compose up --build -d
 ```
 
 This will:
@@ -75,7 +75,8 @@ Example snippet to add under the `Peers` section:
 **After editing the config, restart the container:**
 
 ```bash
-docker-compose restart
+docker compose down
+docker compose up --build -d
 ```
 
 ---
@@ -85,7 +86,7 @@ docker-compose restart
 Once the container is running, enter it:
 
 ```bash
-docker exec -it yggdrasil /bin/bash
+docker exec -it <yggdrasil(compose will tell you the name)> /bin/bash
 ```
 
 Then run:
@@ -112,7 +113,7 @@ lynx http://[Another_Yggdrasil_Node_IP]/
 
 ## Troubleshooting
 
-- Ensure `docker-compose` and Docker are installed and functional.
+- Ensure and Docker is installed and functional.
 - Firewall issues? Try running with elevated privileges or check that UDP and TCP traffic can reach your peers.
 
 ---
