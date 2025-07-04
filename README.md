@@ -2,6 +2,11 @@
 
 A simple Docker setup for running [Yggdrasil](https://yggdrasil-network.github.io/) – the decentralized IPv6 networking protocol – with minimal hassle. This project is aimed at beginners or anyone who wants to get a working Yggdrasil node up and running quickly in a containerized environment.
 
+This project was inspired by or based in part on:
+
+- [Ravenstine's Yggdrasil Docker Gist](https://gist.github.com/Ravenstine/707180ef29e9d37a8f816e019ca32dbf)
+
+Thank you for making your work publicly available!
 
 This repository provides:
 - A Dockerfile to build an Alpine-based image with Yggdrasil and basic tools.
