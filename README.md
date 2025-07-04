@@ -59,7 +59,7 @@ This will:
 
 ## Add Public Peers
 
-To connect your node to the wider Yggdrasil network, edit the generated config file (`yggdrasil/yggdrasil.conf`) and add some public peers.
+To connect your node to the wider Yggdrasil network, edit the generated config file (local bind: `yggdrasil/yggdrasil.conf`; inside the container: `/etc/yggdrasil/yggdrasil.conf`) and add some public peers.
 
 [You can find up-to-date public peers here](https://publicpeers.neilalexander.dev/)
 
