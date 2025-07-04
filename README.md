@@ -26,7 +26,7 @@ This repository demands:
 
 ```bash
 git clone https://github.com/niederschelden/yggdrasil-for-the-rest-of-us.git
-cd yggdrasil-for-the-rest
+cd yggdrasil-for-the-rest-of-us
 ```
 
 ### 2. Create necessary folders and files
