@@ -1,0 +1,13 @@
+services:
+  yggdrasil:
+    image: yggdrasil:fresh
+    build: .
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    volumes:
+      - "./yggdrasil:/etc/yggdrasil"
+    sysctls:
+      - "net.ipv6.conf.all.disable_ipv6=0"
+    mac_address: ${YGG_MAC:-} # Optional: Statische MAC-Adresse – nur nötig bei bestimmten Netzwerkkonfigurationen.

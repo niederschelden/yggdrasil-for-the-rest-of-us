@@ -1,0 +1,14 @@
+# --- macOS system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder settings
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# --- Yggdrasil config file (don't upload this) ---
+yggdrasil.conf
