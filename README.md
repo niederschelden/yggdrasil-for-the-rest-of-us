@@ -25,7 +25,7 @@ This repository demands:
 ### 1. Clone this repository
 
 ```bash
-git clone https://https://github.com/niederschelden/yggdrasil-for-the-rest-of-us.git
+git clone https://github.com/niederschelden/yggdrasil-for-the-rest-of-us.git
 cd yggdrasil-for-the-rest
 ```
 
